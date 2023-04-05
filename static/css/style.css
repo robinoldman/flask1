@@ -1,2 +1,9 @@
 .col-md-5 img{width: 100%;}
 
+#hero{
+    max-width: 100%;
+    height: auto;
+    background: url('../img/Workforce_teamwork.jpeg');
+    overflow: auto;
+    
+}
