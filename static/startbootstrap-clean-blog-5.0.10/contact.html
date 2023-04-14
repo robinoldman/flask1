@@ -7,6 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("6_E-OIcvAUQuULNRa");
+        emailjs.send(gmail, robin, {name: "Robin", notes:"I am interested in in...."}, 6_E-OIcvAUQuULNRa);
+    })();
+  </script>
 
   <title>Clean Blog - Start Bootstrap Theme</title>
 
