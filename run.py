@@ -1,15 +1,17 @@
 import os
 import json
 from flask import Flask, render_template, request, flash
-if os.path.exists("env.py"):
-    import env
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY")
+app.secret_key = '8AK#i%>vB6?Kjx@#U8h*W$EwL2Q@5^Rc'
+
+if os.path.exists("env.py"):
+    import env
 
 @app.route("/")
 def index():
     return render_template("index.html")
+
 
 
 @app.route("/about")
