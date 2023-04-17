@@ -41,3 +41,40 @@ nav {
       border: 8px solid white; /* Change the color and width values to your desired values */
     }
   }
+
+  @media (max-width: 770px) {
+    .featurette-image {
+      max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 15px
+    }
+    .navbar-expand-lg .navbar-light .fixed-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+  }
+  @media (max-width: 600px) {
+    .navbar-expand-lg .navbar-light .fixed-top {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .logo img {
+      margin-right: 10px;
+    }
+  }
+
+  @media (max-width: 630px) {
+    .logo {
+      display: none;
+    }
+  }
+
+  body {
+    text-align: justify;
+   
+  }
