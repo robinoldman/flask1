@@ -78,3 +78,66 @@ nav {
     text-align: justify;
    
   }
+
+  .staff {
+    max-width: 35%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    
+  
+   
+  }
+
+  .main {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .row.placeholders {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .col-xs-6.col-sm-3.placeholder {
+      width: 50%;
+      margin-bottom: 20px;
+    } 
+    
+    .title {
+      font-size: 20px;
+    }
+  }
+  
+
+  @media (max-width: 575px) {
+  body {
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    }}
+  /* For screens larger than 768px (i.e. desktops and larger screens) */
+  @media (min-width: 768px) {
+    .row.placeholders {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .col-xs-6.col-sm-3.placeholder {
+      width: 30%;
+    }
+  }
+
+  @media (min-width: 770px) {
+  .col-sm-6 {
+    width: 50%;
+    float: left;
+  }
+  .clearfix.visible-sm {
+    display: none;
+  }
+}
